@@ -1,7 +1,7 @@
 #include <ctime>
 #include <cstdlib>
 #include "utils.h"
-#include "heapsort.h"
+#include "countingsort.h"
 
 #define QTDE 100000
 
@@ -21,7 +21,7 @@ int main() {
 		struct timeval start, end;
 
 		gettimeofday(&start, NULL);
-		heapsort(vet, i);
+		counting_sort(vet, i);
 		gettimeofday(&end, NULL);
 
 		double milliseconds = calcula_tempo(start, end);
@@ -31,7 +31,7 @@ int main() {
 		i++;
 	}
 	
-	escreveArquivo(times, "heapsort_r.txt");
+	escreveArquivo(times, "countingsort_r.txt");
 
 	return 0;
 }

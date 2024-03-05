@@ -19,3 +19,6 @@ graphs:
 	@ g++ graph_quick_sort_pr_r.cpp utils.cpp -o graph_quick_sort_pr_r.out -lpython3.9
 	@ g++ graph_all_m.cpp utils.cpp -o graph_all_m.out -lpython3.9
 	@ g++ graph_all_r.cpp utils.cpp -o graph_all_r.out -lpython3.9
+	@ g++ graph_all_c.cpp utils.cpp -o graph_all_c.out -lpython3.9
+	@ g++ graph_all_d.cpp utils.cpp -o graph_all_d.out -lpython3.9
+	@ g++ graph_all_rand.cpp utils.cpp -o graph_all_rand.out -lpython3.9
