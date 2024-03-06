@@ -12,7 +12,7 @@ namespace plt = matplotlibcpp;
 int main()
 {
 	std::vector<double> times;
-	times = abreArquivo(times, "countingsort_c.txt");
+	times = abreArquivo(times, "radixsort_c.txt");
 
 	plt::plot(times);
 	plt::show();
