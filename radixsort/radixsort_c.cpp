@@ -3,7 +3,8 @@
 #include "utils.h"
 #include "radixsort.h"
 
-#define QTDE 100000
+#define QTDE 999998
+#define IN_CEP 66000001
 
 int main()
 {
@@ -15,7 +16,7 @@ int main()
 		int vet[i];
 
 		for(int j = 0; j < i; j++)
-			vet[j] = j;
+			vet[j] = IN_CEP + j;
 
 		struct timeval start, end;
 

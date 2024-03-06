@@ -16,7 +16,7 @@ int main() {
 		int vet[i];
 
 		for(int j = 0; j < i; j++)
-			vet[j] = rand() % QTDE;
+			vet[j] = (rand() % QTDE) + 1;
 
 		struct timeval start, end;
 
